@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Peticion_ApiRest</string>
+    <string name="name_bar_tool">Petición de artículo</string>
+    <string name="btpeticion">Enviar</string>
+    <string name="msgerror">Error en comunicación</string>
+    <string name="navigation_drawer_close">Close</string>
+</resources>

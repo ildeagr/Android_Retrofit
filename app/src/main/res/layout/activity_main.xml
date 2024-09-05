@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/orange_light"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/tvnombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvprecio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Precio:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/tvarticulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Articulo:"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/etarticulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Introducir número de artículo"
+            android:digits="0123456789"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tvmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msgerror"
+            android:textColor="@color/salmon_dark"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btrespuesta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btpeticion"
+            android:textSize="15sp"
+            android:background="@color/green"
+            android:layout_marginTop="10dp"
+            android:onClick="infoRecibida"/>
+
+    </LinearLayout>
+</LinearLayout>
