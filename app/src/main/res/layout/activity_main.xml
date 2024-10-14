@@ -1,6 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/Backgroundmain"
+    tools:context=".MainActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:src="@drawable/Banner" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvmain"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:paddingStart="17dp">
+        </TextView>
+        <Button
+            android:id="@+id/btshowid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/search"
+            android:text="@string/get"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/UbuntuCondensed"
+            android:paddingStart="30dp"
+            android:onClick="peticionget"/>
+
+        <Button
+            android:id="@+id/btpost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/edit"
+            android:text="@string/post"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/UbuntuCondensed"
+            android:paddingStart="30dp"
+            android:onClick="peticionput"/>
+
+        <Button
+            android:id="@+id/btput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/create"
+            android:text="@string/put"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/UbuntuCondensed"
+            android:paddingStart="30dp"
+            android:onClick="peticionpost"/>
+
+        <Button
+            android:id="@+id/btdelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/delete"
+            android:text="@string/delete"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/UbuntuCondensed"
+            android:paddingStart="30dp"
+            android:onClick="peticiondelete"/>
+
+        <Button
+            android:id="@+id/btshowall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="@color/white"
+            android:drawableStart="@drawable/searchall"
+            android:text="@string/getall"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="@font/UbuntuCondensed"
+            android:paddingStart="30dp"
+            android:onClick="peticiongetall"/>
+    </LinearLayout>
+
+</LinearLayout>

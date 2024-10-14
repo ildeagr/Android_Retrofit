@@ -1,7 +1,19 @@
 <resources>
     <string name="app_name">Peticion_ApiRest</string>
     <string name="name_bar_tool">Petición de artículo</string>
-    <string name="btpeticion">Enviar</string>
+    <string name="btpeticion">Buscar</string>
+    <string name="btchange">Modificar</string>
     <string name="msgerror">Error en comunicación</string>
     <string name="navigation_drawer_close">Close</string>
+
+    <string name="tvmain">Selecciona una opción:</string>
+    <string name="get">Consultar artículo</string>
+    <string name="getall">Mostrar catalogo completo</string>
+    <string name="post">Modificar artículo</string>
+    <string name="put">Crea artículo</string>
+    <string name="delete">Eliminar artículo</string>
+
+    <string name="etdelete">Introducir Id a borrar</string>
+    <string name="btdelete">Eliminar</string>
+
 </resources>

@@ -12,4 +12,9 @@
     <color name="green">#4CAF50</color>
     <color name="orange">#FFC107</color>
     <color name="orange_light">#F2E2B3</color>
+
+    <color name="gray">#D8D8D8</color>
+    <color name="gray_medium">#787878</color>
+    <color name="gray_strong">#5B5B5B</color>
+    <color name="gray_dark">#2B2A29</color>
 </resources>
