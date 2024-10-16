@@ -1,11 +1,10 @@
 ## Proyecto Gestión de Catálogo (Frontend Android)
 
-Aplicacion móvil con Android para el manejo de un catálogo de productos tecnologicos almacenados en una base de datos relacional SQL.
+## Objetivo:
+Desarrollar un aplicacion móvil con Android Studio para el manejo de un catálogo de productos tecnologicos almacenados en una base de datos relacional SQL. Este frontend realiza peticiones Restful a un microservicio encargado de gestionar con la base de datos dichas peticiones.
 
-Este frontend realiza peticiones Restful a un microservicio encargado de gestionar con la base de datos dichas peticiones. A continuacion mostramos y explicamos todas las opciones que nos permite realizar en la base de datos desde nuestra aplicacion Android.
-
-## Logros y participación:
-He desarrollado el frontend integramente, lo que me ha permitido:
+## Sobre mi participacion y Logros:
+He desarrollado el frontend de forma integra, lo que me ha permitido:
 
 1. Aprender el uso y configuración de las librerías Retrofit para las peticiones HTTP de la API Rest.
 2. Aplicar y consolidar los conocimientos de Kotlin en Android.
