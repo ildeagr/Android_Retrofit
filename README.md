@@ -13,7 +13,7 @@ He desarrollado el frontend de forma integra, lo que me ha permitido:
 ## Funcionamiento del Frontend
 La aplicación inicia en una pantalla principal donde el usuario debe seleccionar que función desea realizar sobre el catálogo. Dependiendo de la opcion selecciónada, se inicia otra actividad donde se solicita la información necesaria para realizar la petición al microservicio.
 
-Pantalla iniacial
+<H3>Pantalla inicial(H3)</H3>
 
 ![Captura de pantalla 2024-10-18 a las 8 51 34](https://github.com/user-attachments/assets/a197b5cd-05b6-4dda-85fb-412e68f87499)
 
