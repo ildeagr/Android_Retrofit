@@ -11,7 +11,11 @@ He desarrollado el frontend de forma integra, lo que me ha permitido:
 3. Diseñar una interfaz simple e intuitiva para el usuario.
 
 ## Funcionamiento del Frontend
-El usuario verá una pantalla principal donde debe seleccionar que función desea realizar sobre el catálogo. Dependiendo de la opcion selecciónada, se inicia otra actividad donde se solicita la información necesaria para realizar la petición al microservicio.
+La aplicación inicia en una pantalla principal donde el usuario debe seleccionar que función desea realizar sobre el catálogo. Dependiendo de la opcion selecciónada, se inicia otra actividad donde se solicita la información necesaria para realizar la petición al microservicio.
+
+Pantalla iniacial
+
+![Captura de pantalla 2024-10-18 a las 8 51 34](https://github.com/user-attachments/assets/a197b5cd-05b6-4dda-85fb-412e68f87499)
 
 ## Visualizar un artículo (Petición Get)
 Aqui el usuario debe indicar el "id" del artículo para realizar la busqueda y que se muestre la información en caso de existir el artículo en la base de datos.
