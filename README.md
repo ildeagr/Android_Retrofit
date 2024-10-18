@@ -3,7 +3,7 @@
 ## Objetivo:
 Desarrollar un aplicacion móvil con Android Studio para el manejo de un catálogo de productos tecnologicos almacenados en una base de datos relacional SQL. Este frontend realiza peticiones Restful a un microservicio encargado de gestionar con la base de datos dichas peticiones.
 
-## Sobre mi participacion y Logros:
+## Sobre mi participación y Logros:
 He desarrollado el frontend de forma integra, lo que me ha permitido:
 
 1. Aprender el uso y configuración de las librerías Retrofit para las peticiones HTTP de la API Rest.
@@ -32,7 +32,7 @@ Tambien podemoslos modificar los campos de la base de datos de los artículos. E
 
 ![Captura de pantalla 2024-10-18 a las 9 16 06](https://github.com/user-attachments/assets/3b3be41d-511c-4d58-b635-366f73c67ee2)
 
-## Eliminar un artículo (Peticón Delete)
+## Eliminar un artículo (Petición Delete)
 En caso de que algun artículo no sea válido y salgo del catálogo por obsoleto podemos eliminarlo del mismo. Primero indicamos el artículo a través del "id", y una vez visto que es el artículo correcto podemoste proceder a la eliminacion.
 
 ## Mostrar catálogo completo
