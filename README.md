@@ -35,5 +35,7 @@ Tambien podemoslos modificar los campos de la base de datos de los artículos. E
 ## Eliminar un artículo (Petición Delete)
 En caso de que algun artículo no sea válido y salgo del catálogo por obsoleto podemos eliminarlo del mismo. Primero indicamos el artículo a través del "id", y una vez visto que es el artículo correcto podemoste proceder a la eliminacion.
 
+![Captura de pantalla 2024-10-18 a las 10 01 32](https://github.com/user-attachments/assets/12de976d-722b-445b-9010-dfe8eefddd6b)
+
 ## Mostrar catálogo completo
 Una funcion bastante útil es poder ver el catálogo completo actual. Este se mostrará en una tabla y así podremos tener la información completa de forma general.
