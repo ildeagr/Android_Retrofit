@@ -20,11 +20,17 @@ La aplicación inicia en una pantalla principal donde el usuario debe selecciona
 ## Visualizar un artículo (Petición Get)
 Aqui el usuario debe indicar el "id" del artículo para realizar la busqueda y que se muestre la información en caso de existir el artículo en la base de datos.
 
+![Captura de pantalla 2024-10-18 a las 9 14 55](https://github.com/user-attachments/assets/2f975c35-ecb4-4397-afef-ade2bf81637a)
+
 ## Crear un artículo nuevo (Petición Post)
 Otra función es poder introducir un artículo nuevo. Para ello se requiere introducir la información completa del artículo y enviar la peticion.
 
+![Captura de pantalla 2024-10-18 a las 9 15 31](https://github.com/user-attachments/assets/bf4a1741-072b-448b-9cd7-976cc46a0853)
+
 ## Modificar un artículo existente (Petición Put)
 Tambien podemoslos modificar los campos de la base de datos de los artículos. En primer lugar indicamos el id del artículo a modificar para conocer el valor de todos los campos, y después basta con modificar el campo deseado y mandar la petición de modificación.
+
+![Captura de pantalla 2024-10-18 a las 9 16 06](https://github.com/user-attachments/assets/3b3be41d-511c-4d58-b635-366f73c67ee2)
 
 ## Eliminar un artículo (Peticón Delete)
 En caso de que algun artículo no sea válido y salgo del catálogo por obsoleto podemos eliminarlo del mismo. Primero indicamos el artículo a través del "id", y una vez visto que es el artículo correcto podemoste proceder a la eliminacion.
